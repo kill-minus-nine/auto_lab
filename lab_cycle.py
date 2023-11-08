@@ -47,6 +47,18 @@ def lab_cycle(retry_count_after_refresh, fight_duration_sec, fight_check_period_
         click(['forward', 'next_floor'], clicked, retry_count_after_refresh, tg_bot)
 
         click(['come_to_rychag'], True, retry_count_after_refresh, tg_bot)
+        # trader:
+        # come_to_rychag not found
+        # click search_pass
+        # next click seq: forward + come_to_rychag
+
+        # statue:
+        # come_to_rychag not found
+        # click search_pass
+        # next click seq: forward + come_to_rychag
+
+        # chest:
+        
 
         sleep(1)
 
